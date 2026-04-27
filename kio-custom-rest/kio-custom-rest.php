@@ -3,7 +3,7 @@
 Plugin Name: KIO Polylang Linker
 Description: Custom REST endpoint to link EN and DE posts via Polylang.
 Version: 1.0
-Author: KIO
+Author: Willie Springer
 */
 
 /*

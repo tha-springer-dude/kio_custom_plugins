@@ -13,7 +13,7 @@ add_action('init', function() {
     $request = $_SERVER['REQUEST_URI'];
 
     // Catch wp-admin and common typos
-    if (preg_match('#/wp-admi[nm]#', $request)) {
+    if (preg_match('#/wp-admi[nm]#', $request) || preg_match('#/wp-login#', $request)) {
         wp_redirect(home_url('/gotcha/'));
         exit;
     }

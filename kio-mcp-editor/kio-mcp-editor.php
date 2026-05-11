@@ -10,7 +10,8 @@ Author: Willie Springer
     require_once __DIR__ . '/includes/get-posts.php';
     require_once __DIR__ . '/includes/get-post-pair.php';
     require_once __DIR__ . '/includes/update-post-pair.php';
-
+    require_once __DIR__ . '/includes/get-categories.php';
+    
 add_action('rest_api_init', function () {
 
     require_once __DIR__ . '/includes/routes.php';

@@ -1,0 +1,48 @@
+body.login {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Logo */
+body.login div#login h1 a {
+    background-size: contain;
+    width: 100%;
+}
+
+/* Form */
+body.login div#login form#loginform {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+
+/* Inputs */
+body.login div#login form#loginform input {
+    padding: 5px;
+    font-size: 16px;
+    border: 3px double #040303;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0;
+    box-shadow: 0 0 9px rgba(66, 66, 66, .75);
+    text-shadow: 0 0 5px rgba(66, 66, 66, .75);
+}
+
+/* Links */
+body.login div#login #backtoblog a,
+.login #login p#nav a {
+    font-size: 14px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.login #nav {
+    float: right;
+}
+
+/* Hide language switcher */
+.language-switcher {
+    display: none;
+}
